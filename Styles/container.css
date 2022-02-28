@@ -7,7 +7,7 @@
 }
 
 .second-container {
-  height: 15rem;
+  height: 13rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@
   height: 6rem;
   width: 100%;
   background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   display: flex;
 }
 
@@ -52,4 +52,50 @@
   text-decoration: none;
   color: #0864EE;
   font-size: 0.8rem;
+}
+
+.card-container{
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-child-container{
+  height: 22rem;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-child-container .title-card-container{
+  height: 2rem;
+  width: 100%;
+  color: #666666;
+  display: flex;
+  align-items: center;
+  font-size: 1.625rem;
+  font-weight: lighter;
+}
+
+.title-card-container a{
+  font-size: 1rem;
+  color: #0864EE;
+  text-decoration: none;
+}
+
+.card{
+  height: 15rem;
+  width: 18%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, 
+  rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
